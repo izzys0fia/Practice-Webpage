@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Assignment</title>
+    <link rel="icon" type="image/x-icon" href="https://izzys0fia.github.io/Practice-Webpage/favicon.ico" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: black;
+            text-align: justify;
+            text-decoration: none;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            word-spacing: 2px;
+            text-shadow: 2px 2px 5px gray;
+			background-image: url('paw.png');
+			background-repeat: repeat;
+			background-size: 65px; 
+        }
+        h2 {
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+			margin-bottom: 5px;
+			padding-top: 20px;
+			text-shadow: 0 0 10px rgba(255, 105, 180, 0.8);
+		}
+		h1 {
+            font-family: 'Times New Roman', serif;
+            text-align: center;
+			text-decoration: underline wavy black;
+			text-underline-offset: 8px;
+			text-decoration-thickness: 2px;
+        }
+        .custom-list {
+            list-style-image: url('cat.png');
+        }
+        footer {
+            text-align: center;
+            font-family: 'Courier New', monospace;
+        }
+		header, footer {
+			background-color: rgba(255, 182, 193, 0.7); 
+			width: 100%;
+			padding: 20px 0;
+		}
+		
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Webpage About Cats</h1>
+    </header>
+    <main>
+        <section>
+			<h2>Kitty Facts</h2>
+				<div style="text-align: center;">
+					<img src="kitties.jpg" usemap="#workmap" alt="Image Map" style="display: block; margin: 0 auto;">
+				</div>
+            <map name="workmap">
+                <area shape="poly" coords="206,318,248,313,228,339" href="https://welovecatsandkittens.com/cat-info/cat-facts/" alt="Cat Facts Site 1" target="_blank">
+                <area shape="poly" coords="515,374,557,372,535,394" href="https://thediscerningcat.com/fun-facts-about-cats/" alt="Cat Facts Site 2" target="_blank">
+                <area shape="poly" coords="801,370,840,373,820,391" href="https://www.dailypaws.com/living-with-pets/pet-owner-relationship/facts-about-cats" alt="Cat Facts Site 3" target="_blank">
+            </map>
+        </section>
+        <section>
+    <h2>Rankings and Fun Facts!</h2>
+    <div style="text-align: center; padding-bottom: 40px;">
+        <div style="display: inline-block; text-align: center; margin: 0 30px;">
+            <ol type="I">
+                <li>Cats</li>
+                <li>Dogs</li>
+            </ol>
+        </div>
+        <div style="display: inline-block; text-align: left; margin: 0 20px;">
+            <ul style="list-style-type: square;">
+                <li>You don't have to walk cats</li>
+                <li>Cats clean themselves</li>
+            </ul>
+        </div>
+        <div style="display: inline-block; text-align: left; margin: 0 20px;">
+            <ul class="custom-list">
+                <li>Did you know milk is actually bad for cats?</li>
+                <li>Did you know female orange cats are rare?</li>
+            </ul>
+        </div>
+    </div>
+	</section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2025 My Webpage</p>
+    </footer>
+</body>
+</html>
